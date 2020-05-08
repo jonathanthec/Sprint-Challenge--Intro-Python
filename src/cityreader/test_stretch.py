@@ -6,7 +6,7 @@ def check_city(inp, exp):
       return False
     if inp.lat != exp.lat:
       return False
-    if inp.lon != exp.lon:
+    if inp.long != exp.long:
       return False
     return True
 
